@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <style>
+        *{
+            background-color: crimson;
+        }
+
+        .list{
+            margin-left: 50px;
+        }
+        .list .description{
+            font-size: 25px;
+        }
+
+        .links{
+            margin-top: 50px;;
+            font-size: 25px;
+            text-align: justify;
+            width:300px;
+            margin-left: 43%;
+        }
+        .options{
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="text-align:center">My Favorite Hobbies & Interests</h1>
+        <ol class="list" style="font-size: 40px;">
+            <li>Soccer</li>
+            <p class="description">I've been playing soccer since I was little. I've come to love the sport. My favorite team has been Tottenham, an English team that's in the Premier league. I really enjoy watching <a href="https://en.wikipedia.org/wiki/Son_Heung-min" target="_blank">Son Heung-min</a> play.</p>
+            <audio controls>
+                <source src="AudioVideo/SUIII.mp3" type="audio/mpeg">
+            </audio>
+            <li>Video games</li>
+            <p class="description">Video Games have been a way to just relax and link with friends when we can't go out. Really enjoy playing games like Rocket League or shooter games like Call of Duty/Warzone. Been trying out games like Valorant, but I'm just bad at it.</p>
+            <li>Greek mythology</li>
+            <p class="description">I loved to learn about Ancient Greek. I was seriously interested in the stories about the Greek gods, people blessed by the gods, people cursed by them, and who became the villains in these stories. Even though it's fiction the series Percy Jackson was a series that I could read without any distractions.</p>
+            <li>Dogs</li>
+            <p class="description">Bro who doesn't like dogs they're just so cute and the best pets to have. I will soon have one and I hope to name it Cookie, which was the last name of the dog I had tho I can't remember how it looked like..</p>
+        </ol>
+    </div>
+
+    <div class="links">
+        <h1 style="margin-left: 60px;">Explore</h1>
+        <h3 style="margin-left:25px;">Get to know me more</h3>
+        <ol>
+            <li><a href="http://127.0.0.1:5500/index.html">Back to Main Page</a></li>
+            <li><a href="http://127.0.0.1:5500/skills.html">Skills</a></li>
+            <li><a href="http://127.0.0.1:5500/spots.html">My Favorite Spots in NY</a></li>
+        </ol>
+    </div>
+
+
+<p style="font-size: 30px;">Choose your favorite pet:</p>
+
+<!-- Created form but should really save the data when I have the chance -->
+<form class="options">
+  <input type="radio" id="html" name="fav_pet" value="dog">
+  <label for="dog">Dog</label><br>
+  <input type="radio" id="css" name="fav_pet" value="bird">
+  <label for="bird">Bird</label><br>
+  <input type="radio" id="javascript" name="fav_pet" value="cat">
+  <label for="cat">Cat</label>
+
+</form> 
+
+<h2>&copy;</h2>
+</body>
+</html>
